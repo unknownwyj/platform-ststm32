@@ -5,11 +5,8 @@
     },
     "core": "stm32",
     "cpu": "cortex-m4",
-    "extra_flags": "-DSTM32F4 -DSTM32F407xx -DSTM32F40_41xxx -DARDUINO_STM32GenericF407VET6",
+    "extra_flags": "-DSTM32F4 -DSTM32F407xx -DARDUINO_STM32GenericF407VET6",
     "f_cpu": "168000000L",
-    "framework_extra_flags": {
-      "arduino": "-DCUSTOM_PERIPHERAL_PINS"
-    },
     "mcu": "stm32f407zet6",
     "product_line": "STM32F407xx",
     "variant": "STM32F4xx/F407Z(E-G)T_F417Z(E-G)T"
